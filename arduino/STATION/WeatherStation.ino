@@ -208,7 +208,7 @@ void loop() {
 	digitalWrite(led, LOW);  // Turn off led
 	delay(1000);             // wait for a 
 
-	updateDHTData();
+	updateDHTData();		// We are now reading the temperature in Farenheight.
 	
 	/* ALLEN:: START OUT 
 	// Incomming real data via IPD is 1 byte (the command identifier byte).
